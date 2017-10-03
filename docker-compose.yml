@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  mypinterest:
+    image: mypinterest
+    build:
+      context: ./MyPInterest
+      dockerfile: Dockerfile
